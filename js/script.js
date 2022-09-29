@@ -194,10 +194,10 @@ function printQuote () {
 					document.body.style.backgroundColor = getRandomColor ();
 }
 
-//Quote automatically refreshes every 15 seconds
+//Quote automatically refreshes every 5 seconds
 window.setInterval(function(){
 printQuote ();
-}, 15000);
+}, 5000);
 
 //Event listener on LoadQuote button to generate new quote		
 document.getElementById("loadQuote").addEventListener("click", printQuote, false);
